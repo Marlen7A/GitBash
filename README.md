@@ -46,9 +46,21 @@
 
 ## Задание
 ### __1. Отправить http запрос на сервер. htpp//162.55.220.72:5005/terminal-hw-request__
- - *``*
+ - *`curl htpp//162.55.220.72:5005/terminal-hw-request`*
 ### __2. Написать скрипт который выполнит автоматически пункты 3,4,5,6,7,8,13__
- - *``*
+ ```css
+cat > script.sh << EOF
+#!/bin/bash
+pwd
+mkdir dir_4
+cd dir_4
+mkdir dir_4_1 dir_4_2 dir_4_3
+cd dir_4_3
+touch 10.txt 11.txt 12.txt 10.json 11.json
+mkdir folder_4_1 folder_4_2 folder_4_3
+ls -la
+mv 10.json 12.txt folder_4_1
+```
 
 
 
