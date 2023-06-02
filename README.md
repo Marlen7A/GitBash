@@ -47,6 +47,7 @@
 ## Задание
 ### __1. Отправить http запрос на сервер. htpp//162.55.220.72:5005/terminal-hw-request__
  - *`curl htpp//162.55.220.72:5005/terminal-hw-request`*
+  - *`curl http://162.55.220.72:5005/get_method?name=Marlen\&age=34`*
 ### __2. Написать скрипт который выполнит автоматически пункты 3,4,5,6,7,8,13__
  ```css
 cat > script.sh << EOF
